@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미니프로젝트 | 숫자야구게임</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <img src="./image/img.png" alt="">
+    </div>
+    <div class="game">
+        <h1>숫자 야구</h1>
+        <input type="text" class="inputNum">
+        <button onclick="game.check()">제출</button>
+        <span class="results">
+            <div>
+                <span class="strikeText">0</span> 스트라이크
+            </div>
+            <div>
+                <span class="ballText">0</span> 볼
+            </div>
+            <div>
+                <span class="outText">0</span> 아웃
+            </div>
+        </span>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
